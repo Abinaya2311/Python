@@ -1,0 +1,7 @@
+a=int(input("Number of Fresh Loaves purchased: "))
+b=int(input("Number of Day Old Loaves purchased: "))
+print("\n")
+print("Regular Price: Rs. 185")
+print("Amount of new loaves: ", a*185)
+print("Amount of day old loaves: ",(a*185)*(60/100))
+print("Total Amount to be paid: ",(a*185)+((a*185)*(60/100)))
